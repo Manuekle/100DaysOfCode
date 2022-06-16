@@ -33,16 +33,16 @@ function Nav() {
           >
             Team
           </Link>
-          <div className="dropdown px-3 py-2 hover:bg-sky-50 text-sky-50 hover:text-slate-900">
-            <label tabindex="0" className="hover:text-slate-900">
+          <div className="dropdown dropdown-hover px-3 py-2 hover:bg-sky-50 text-sky-50 hover:text-slate-900">
+            <label tabIndex="0" className="hover:text-slate-900">
               Projects
             </label>
             <ul
-              tabindex="0"
+              tabIndex="0"
               className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <Link to="/" className="text-sky-50">
+                <Link to="/calculator" className="text-sky-50">
                   Calculator
                 </Link>
               </li>
