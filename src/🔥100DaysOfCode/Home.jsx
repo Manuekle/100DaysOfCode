@@ -1,12 +1,16 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
-import NotFound from "../components/NotFound";
+import { boxIcon } from "boxicons";
+import Card from "../components/Card";
 
 function Home() {
   return (
-    <Routes>
-        <Route path="*" element={<NotFound/>} />
-    </Routes>
+    <div className="py-2 bg-slate-100 rounded-md drop-shadow-md">
+      <div class="flex">
+        <div class="grow">
+          {/* <Card /> */}
+          </div>
+      </div>     
+    </div>
   );
 }
 

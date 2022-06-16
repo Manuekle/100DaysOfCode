@@ -1,12 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import Home from "./🔥100DaysOfCode/Home";
+import Index from "./🔥100DaysOfCode/Index";
 
 function App() {
   return (
-    <Router>
-      <Home/>      
-    </Router>
+    <main data-theme="black">
+      <Router>
+        <Index />
+      </Router>
+    </main>
   );
 }
 
