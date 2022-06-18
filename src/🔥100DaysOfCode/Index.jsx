@@ -5,21 +5,21 @@ import NotFound from "../components/NotFound";
 import Home from "./Home";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
+import Buy from "../components/Buy";
 // ?Componentes reactivos
-import Calculator from "./🦒Day1/Calculator";
 
 function Index() {
   return (
     <div className="md:container md:mx-auto ">
       <Nav />
-      <div className="py-5 px-5 mb-4 rounded-md drop-shadow-md bg-slate-100">
+      <div>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/calculator" element={<Calculator />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
       <Footer />
+      <Buy />
     </div>
   );
 }

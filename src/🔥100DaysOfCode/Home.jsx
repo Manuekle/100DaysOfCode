@@ -1,9 +1,12 @@
 import React from "react";
+import Container from "../components/Home/Container";
+import Team from "../components/Home/Team";
 
 function Home() {
   return (
-    <div className="flex">
-      <div className="grow"></div>
+    <div>
+      <Container/>
+      <Team/>
     </div>
   );
 }

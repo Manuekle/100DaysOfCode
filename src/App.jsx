@@ -4,7 +4,7 @@ import Index from "./🔥100DaysOfCode/Index";
 
 function App() {
   return (
-    <main data-theme="black">
+    <main>
       <Router>
         <Index />
       </Router>

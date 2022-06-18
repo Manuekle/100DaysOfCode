@@ -5,59 +5,57 @@ import { boxIcon } from "boxicons";
 function Nav() {
   return (
     <div className="py-5">
-      <nav className="flex justify-between space-x-4 bg-transparent rounded-md py-3">
+      <nav className="flex justify-between bg-neutral-200 rounded-md py-3">
         <div className="flex justify-start">
-          <a
-            target="_blank"
-            href="https://github.com/Manuekle"
-            className="text-4xl px-3"
-          >
-            <box-icon
-              type="logo"
-              color="white"
-              animation="tada-hover"
-              name="github"
-            ></box-icon>
-          </a>
+          <div className="px-3">
+            <a href="https://github.com/Manuekle">
+              <box-icon
+                color="gray"
+                animation="tada-hover"
+                type="logo"
+                name="github"
+              ></box-icon>
+            </a>
+          </div>
         </div>
         <div className="flex justify-center">
           <Link
             to="/"
-            className="font-medium px-3 py-2 text-sky-50 hover:bg-sky-50 hover:text-slate-900"
+            className="px-4 text-sm text-neutral-500 hover:text-neutral-700"
           >
-            Home
+            <div className="flex flex-wrap">
+              <div>
+                <box-icon color="gray" type="solid" name="game"></box-icon>
+              </div>
+              <div className="px-1 pt-0.5 font-black">Retos</div>
+            </div>
           </Link>
           <Link
             to="/"
-            className="font-medium px-3 py-2 text-sky-50 hover:bg-sky-50 hover:text-slate-900"
+            className="px-4 font-bold text-sm text-neutral-500 hover:text-neutral-700"
           >
-            Team
+            <div className="flex flex-wrap">
+              <div>
+                <box-icon color="gray" name="world"></box-icon>
+              </div>
+              <div className="px-1 pt-0.5  font-black">Support</div>
+            </div>
           </Link>
-          <div className="dropdown dropdown-hover px-3 py-2 hover:bg-sky-50 text-sky-50 hover:text-slate-900">
-            <label tabIndex="0" className="hover:text-slate-900">
-              Projects
-            </label>
-            <ul
-              tabIndex="0"
-              className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52"
-            >
-              <li>
-                <Link to="/calculator" className="text-sky-50">
-                  Calculator
-                </Link>
-              </li>
-            </ul>
-          </div>
           <Link
             to="/"
-            className="font-medium px-3 py-2 text-sky-50 hover:bg-sky-50 hover:text-slate-900"
+            className="px-4 font-bold text-sm text-neutral-500 hover:text-neutral-700"
           >
-            Reports
+            <div className="flex flex-wrap">
+              <div>
+                <box-icon color="gray" name="help-circle"></box-icon>
+              </div>
+              <div className="px-1 pt-0.5  font-black">FAQ</div>
+            </div>
           </Link>
         </div>
         <div className="flex justify-start">
-          <div className="text-4xl px-3">
-            <input type="checkbox" className="toggle toggle-xs" />
+          <div className="px-3">
+            <box-icon color="gray" name="user-circle" type="solid"></box-icon>
           </div>
         </div>
       </nav>

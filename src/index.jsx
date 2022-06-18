@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { Provider } from "react-redux";
-import "./main.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import hello from "./store";
-import 'boxicons/css/boxicons.min.css';
+// import 'boxicons/css/boxicons.min.css';
+import "./globals.css";
 
 const store = hello();
 
