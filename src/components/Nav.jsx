@@ -5,7 +5,7 @@ import { boxIcon } from "boxicons";
 function Nav() {
   return (
     <div className="py-5">
-      <nav className="flex justify-between bg-neutral-200 rounded-md py-3">
+      <nav className="flex justify-between bg-zinc-800 rounded-md py-3">
         <div className="flex justify-start">
           <div className="px-3">
             <a href="https://github.com/Manuekle">
@@ -27,7 +27,7 @@ function Nav() {
               <div>
                 <box-icon color="gray" type="solid" name="game"></box-icon>
               </div>
-              <div className="px-1 pt-0.5 font-black">Retos</div>
+              <div className="px-1 pt-0.5 font-black">About me</div>
             </div>
           </Link>
           <Link
@@ -38,7 +38,7 @@ function Nav() {
               <div>
                 <box-icon color="gray" name="world"></box-icon>
               </div>
-              <div className="px-1 pt-0.5  font-black">Support</div>
+              <div className="px-1 pt-0.5 font-black">Proyects</div>
             </div>
           </Link>
           <Link

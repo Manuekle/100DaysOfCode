@@ -16,7 +16,7 @@
 
 body {
     margin: 0;
-    font-family: font-face sans-serif;
+    /* font-family: font-face sans-serif; */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     /* font-weight: 1000; */

@@ -3,7 +3,7 @@ import avatar from "./svg/avatar1.png";
 
 function Team() {
   return (
-    <div id="team">
+    <div>
       <div className="container xl:max-w-6xl mx-auto px-4">
         <div className="flex flex-wrap flex-row -mx-4 justify-center">
           <div className="flex-shrink max-w-full px-4 w-2/3 sm:w-1/2 md:w-5/12 lg:w-1/4 xl:px-6">
