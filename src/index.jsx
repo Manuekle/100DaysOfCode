@@ -4,13 +4,13 @@ import { Provider } from "react-redux";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import hello from "./store";
-
-import "./globals.css";
+import "./globals.scss";
 
 const store = hello();
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
+  //para las buenas pracicas bb <3
   <Provider store={store}>
     <App/>
   </Provider>

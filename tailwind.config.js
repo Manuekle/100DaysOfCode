@@ -6,10 +6,7 @@ module.exports = {
   theme: {
     extend: {},
   },
-  // plugins: [require("daisyui")],
-  // daisyui: {
-  //   themes: [  
-  //     "lofi",
-  //   ],
-  // },
+  // plugins: [require('tailwindcss')],
+  plugins: [require("flowbite/plugin")],
+  
 };

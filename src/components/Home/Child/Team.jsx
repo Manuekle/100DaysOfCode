@@ -1,5 +1,5 @@
 import React from "react";
-import avatar from "./svg/avatar1.png";
+import avatar from "../svg/avatar1.png";
 
 function Team() {
   return (

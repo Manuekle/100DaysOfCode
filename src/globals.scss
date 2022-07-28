@@ -1,0 +1,38 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1D1D1D;
+    color: #fff;
+  }
+}
+
+@font-face {
+  font-family: "San Francisco";
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+body {
+  margin: 0;
+
+  /* font-family: font-face sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* font-weight: 1000; */
+}
+
+code {
+  font-family: font-face monospace;
+}
+
+/* input[type=number] {
+  &::-webkit-inner-spin-button, &::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+} */

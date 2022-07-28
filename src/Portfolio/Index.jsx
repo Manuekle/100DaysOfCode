@@ -4,7 +4,6 @@ import NotFound from "../components/NotFound";
 // *Componentes escenciales
 import Home from "./Home";
 import Nav from "../components/Nav";
-import Buy from "../components/Buy";
 // ?Componentes reactivos
 
 function Index() {
@@ -17,7 +16,6 @@ function Index() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
-      <Buy />   
     </div>
   );
 }
